@@ -13,10 +13,10 @@
 
 
 .ORG 0
-		LDI  R24, 0x10 ;upper
-		LDI  R25, 0x27 ;lower
-		LDI  R22, 0x64 ;upper
-		LDI  R23, 0x00 ;zeroed reg
+		LDI  R24, 0x10 ; 16-bit upper
+		LDI  R25, 0x27 ; 16-bit lower
+		LDI  R22, 0x64 ; 8-bit
+		LDI  R23, 0x00 ; zeroed reg
 		;LDI  R26, 0x01
 loop:
 		ADD  R20, R24
